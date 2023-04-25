@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Facebook Designs
+    </title>
+    <style>
+      .friend-req {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        font-family: arial;
+        width: 200px;
+        margin-right: 0;
+      }
+      .profile-pic {
+        width: 200px;
+        height: 200px;
+      }
+      .name {
+        font-weight: bold;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 0;
+      }
+      .number-of-mutual-friend {
+        color: rgb(119, 91, 91);
+        font-size: 15px;
+      }
+      .add-friend {
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        background-color: rgb(29, 155, 240);
+        margin-left: 5px;
+        margin-bottom: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 14px;
+        padding-right: 14px;
+        cursor: pointer;
+      }
+      .friend-req-grid {
+        display: grid; 
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 20px;
+      }
+      .mutual-friends {
+        display: grid;
+        grid-template-columns: 35px 1fr;  
+        align-items: center;  
+        margin-top: 5px;
+        margin-bottom: 8px;
+        margin-left: 3px; 
+      }
+      .mutual-friend-pic-actual {
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="friend-req-grid">
+      <div class="friend-req">
+        <img class="profile-pic" src="cat.png">
+        <p class="name"> 
+          Oliver
+        </p>
+        <div class="mutual-friends">
+          <div class="mutual-firend-pic">
+            <img src="cat2.png" width="30px" class="mutual-friend-pic-actual">
+          </div>
+          <div class="number-of-mutual-friend">
+              2 mutual frieds
+          </div>
+        </div>
+        
+        <button class="add-friend">
+          Add Friend
+        </button>
+      </div>  
+      <div class="friend-req">
+        <img class="profile-pic" src="cat1.png">
+        <p class="name"> 
+          Mimi
+        </p>
+        <div class="mutual-friends">
+          <div class="mutual-firend-pic">
+            <img src="cat.png" width="30px" class="mutual-friend-pic-actual">
+          </div>
+          <div class="number-of-mutual-friend">
+              6 mutual frieds
+          </div>
+        </div>
+        
+        <button class="add-friend">
+          Add Friend
+        </button>
+      </div>  
+      <div class="friend-req">
+        <img class="profile-pic" src="cat2.png">
+        <p class="name"> 
+          Rex
+        </p>
+        <div class="mutual-friends">
+          <div class="mutual-firend-pic">
+            <img src="cat.png" width="30px" class="mutual-friend-pic-actual">
+          </div>
+          <div class="number-of-mutual-friend">
+              1 mutual frieds
+          </div>
+        </div>
+        
+        <button class="add-friend">
+          Add Friend
+        </button>
+      </div>  
+    </div>
+    
+  </body>
+</html>

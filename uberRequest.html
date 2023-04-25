@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Uber Request
+    </title>
+    <style>
+      p {
+        font-family: arial;
+        font-weight: bold;
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+      input {
+        font-family: arial;
+        display: block;
+        background-color:rgb(240, 240, 240);
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 13px;
+        margin-bottom: 8px;
+        width: 500px;
+      }
+      
+      .request {
+        font-family: arial;
+        margin-top: 20px;
+        border: none;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        padding-left: 11px;
+        padding-right: 11px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        transition: opacity 0.2s;
+        cursor: pointer;
+      }
+      .request:hover {
+        opacity: 0.8;
+      }
+      .schedule-for-now {
+        font-family: arial;
+        padding-left: 11px;
+        padding-right: 11px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        margin-top: 20px;
+        border: none;
+        margin-left: 8px;
+        cursor: pointer;
+
+      }
+      .schedule-for-now:hover {
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Request a ride now
+    </p>
+    <input placeholder="Enter pickup location">
+    <input placeholder="Enter destination">
+    <button class="request">
+      Request now
+    </button>
+    <button class="schedule-for-now">Schedule for now</button>
+
+  </body>
+</html>
